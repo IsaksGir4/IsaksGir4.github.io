@@ -1,0 +1,251 @@
+[
+  {
+    "id": "accesibilidad-digital",
+    "title": "Challenge de Accesibilidad Digital: Diseña para todas las personas",
+    "issuer": "Universidad EIA · Fundación Saldarriaga Concha · Whee",
+    "date": "2026-11-04",
+    "category": "recognition",
+    "note": {
+      "es": "Jornada de cocreación y validación con personas con discapacidad para diseñar experiencias digitales más inclusivas.",
+      "en": "Co-creation and validation workshop with people with disabilities focused on inclusive digital experiences."
+    },
+    "file": "certificates/certificado_fundacion_saldarriaga.pdf",
+    "thumb": "certificates/certificado_fundacion_saldarriaga_thumb.webp",
+    "url": ""
+  },
+  {
+    "id": "spark-x",
+    "title": "Spark-X Entrepreneurial Program",
+    "issuer": "Georgia Institute of Technology (GTMC) · EI² Global",
+    "date": "2026-10-26",
+    "hours": 54,
+    "category": "business",
+    "note": {
+      "es": "Certificado de culminación del programa Spark-X con Georgia Tech Medellín Center (25 de agosto al 26 de octubre de 2026).",
+      "en": "Certificate of completion for the Georgia Tech Medellín Center Spark-X Entrepreneurial Program (Aug 25 – Oct 26, 2026)."
+    },
+    "file": "certificates/gt_certification.jpeg",
+    "thumb": "certificates/gt_certification_thumb.webp",
+    "url": ""
+  },
+  {
+    "id": "spark-x-ces",
+    "title": "Movilidad Académica Spark-X: Lab para Emprendedores",
+    "issuer": "Universidad CES · Georgia Institute of Technology (GTMC)",
+    "date": "2026-10-26",
+    "hours": 54,
+    "category": "business",
+    "note": {
+      "es": "Movilidad académica nacional (36 h sincrónicas y 18 h de trabajo autónomo) en alianza con CES, EIA, EAFIT, UdeA, UPB y GTMC.",
+      "en": "National academic mobility program (36 synchronous hours and 18 independent hours) with CES, EIA, EAFIT, UdeA, UPB, and GTMC."
+    },
+    "file": "certificates/ces_certification_filtro.jpeg",
+    "thumb": "certificates/ces_certification_filtro_thumb.webp",
+    "url": ""
+  },
+  {
+    "id": "datacamp-sql",
+    "title": "Associate Data Engineer in SQL",
+    "issuer": "DataCamp",
+    "date": "2026-10-13",
+    "hours": 28,
+    "category": "data",
+    "file": "certificates/certificate_associate_data_engineer_in_sql.pdf",
+    "thumb": "certificates/certificate_associate_data_engineer_in_sql_thumb.webp",
+    "url": ""
+  },
+  {
+    "id": "msft-ambassador",
+    "title": "Microsoft Student Ambassador",
+    "issuer": "Microsoft Corporation",
+    "date": "2026-10-08",
+    "category": "recognition",
+    "note": {
+      "es": "Reconocimiento por liderazgo y contribución a la comunidad Microsoft Student Ambassadors 2026.",
+      "en": "Recognition for leadership and community impact in the 2026 Microsoft Student Ambassadors program."
+    },
+    "file": "certificates/microsoft_student_ambassador_certificate.pdf",
+    "thumb": "certificates/microsoft_student_ambassador_certificate_thumb.webp",
+    "url": ""
+  },
+  {
+    "id": "nvidia-anomaly",
+    "title": "Applications of AI for Anomaly Detection",
+    "issuer": "NVIDIA Deep Learning Institute · AI Week LATAM 2026",
+    "date": "2026-10-01",
+    "category": "ai",
+    "note": {
+      "es": "Laboratorio práctico sobre el conjunto KDD99: XGBoost con GPU (exactitud 0,997) y un autoencoder (0,919) para detectar anomalías.",
+      "en": "Hands-on lab on the KDD99 dataset: GPU-accelerated XGBoost (accuracy 0.997) and an autoencoder (0.919) to detect anomalies."
+    },
+    "file": "certificates/certificado_nvidia_3.pdf",
+    "thumb": "certificates/certificado_nvidia_3_thumb.webp",
+    "url": "https://learn.nvidia.com/certificates?id=OLW4TXqYRE6UwjjFbRrXjA"
+  },
+  {
+    "id": "nvidia-diffusion",
+    "title": "Generative AI with Diffusion Models",
+    "issuer": "NVIDIA Deep Learning Institute · AI Week LATAM 2026",
+    "date": "2026-09-30",
+    "category": "ai",
+    "file": "certificates/certificado_nvidia_2.pdf",
+    "thumb": "certificates/certificado_nvidia_2_thumb.webp",
+    "url": "https://learn.nvidia.com/certificates?id=BFU0FXctRVmK8suC4wHugA"
+  },
+  {
+    "id": "datacamp-powerbi",
+    "title": "Power BI Fundamentals",
+    "issuer": "DataCamp",
+    "date": "2026-09-27",
+    "hours": 19,
+    "category": "data",
+    "file": "certificates/certificado_power_bi.pdf",
+    "thumb": "certificates/certificado_power_bi_thumb.webp",
+    "url": ""
+  },
+  {
+    "id": "sura-orientacion-logro",
+    "title": "Premio Individual a la Orientación al Logro – Reto Nacional",
+    "issuer": "Seguros Sura Colombia",
+    "date": "2026-08-28",
+    "hours": 40,
+    "category": "recognition",
+    "note": {
+      "es": "Reconocimiento individual por capacidad de orientación al logro durante la Pasantía en Modelación y Gestión de Riesgos (24 al 28 de agosto de 2026).",
+      "en": "Individual award for achievement orientation during the Actuarial, Financial & Risk Modeling Internship (Aug 24–28, 2026)."
+    },
+    "file": "certificates/reconocimiento_sura_filtro.jpeg",
+    "thumb": "certificates/reconocimiento_sura_filtro_thumb.webp",
+    "url": ""
+  },
+  {
+    "id": "sura-tercer-lugar-2026",
+    "title": "Tercer Lugar Nacional – Pasantía en Modelación y Gestión de Riesgos",
+    "issuer": "Seguros Sura Colombia",
+    "date": "2026-08-28",
+    "category": "recognition",
+    "note": {
+      "es": "Reconocimiento al tercer lugar entre 12 equipos nacionales en la Pasantía en Modelación y Gestión Actuarial, Financiera y de Riesgos 2026-II.",
+      "en": "Third place recognition among 12 national teams in the 2026-II Actuarial, Financial & Risk Modeling Internship."
+    },
+    "file": "certificates/3er_lugar_sura_filtro.jpeg",
+    "thumb": "certificates/3er_lugar_sura_filtro_thumb.webp",
+    "url": ""
+  },
+  {
+    "id": "sura-pasantia-2026",
+    "title": "Pasantía en Modelación y Gestión Actuarial, Financiera y de Riesgos 2026-II",
+    "issuer": "Seguros Sura Colombia",
+    "date": "2026-08-28",
+    "hours": 40,
+    "category": "business",
+    "note": {
+      "es": "Formación presencial orientada a finanzas, analítica y tarifación de seguros (24 al 28 de agosto de 2026). Tercer lugar nacional entre 12 equipos.",
+      "en": "In-person challenge focused on insurance finance, analytics, and pricing (Aug 24–28, 2026). 3rd place nationwide among 12 teams."
+    },
+    "file": "certificates/participacion_sura_filtro.jpeg",
+    "thumb": "certificates/participacion_sura_filtro_thumb.webp",
+    "url": ""
+  },
+  {
+    "id": "datos-ecosistema-2026",
+    "title": "Datos al Ecosistema 2026: Inteligencia Artificial para Colombia (Nivel Intermedio)",
+    "issuer": "Ministerio TIC · Corporación Colombia Digital",
+    "date": "2026-07-17",
+    "category": "ai",
+    "note": {
+      "es": "Iniciativa nacional que reunió a 269 equipos alrededor de nueve retos de datos e IA (21 de abril al 17 de julio de 2026). Proyecto VitalRisk AI (82/100).",
+      "en": "National initiative bringing together 269 teams across nine open-data and AI challenges (Apr 21 – Jul 17, 2026). Project VitalRisk AI (82/100)."
+    },
+    "file": "certificates/certificado_isaac_giraldo_filtro.pdf",
+    "thumb": "certificates/certificado_isaac_giraldo_filtro_thumb.webp",
+    "url": ""
+  },
+  {
+    "id": "jetbrains-fullstack-aws",
+    "title": "Launch Full-Stack App on AWS",
+    "issuer": "JetBrains Academy · Amazon Web Services",
+    "date": "2026-04-02",
+    "category": "cloud",
+    "note": {
+      "es": "Skill Path «Launch Your First Full-Stack App on AWS».",
+      "en": "Skill Path “Launch Your First Full-Stack App on AWS”."
+    },
+    "file": "certificates/certificate_fullstack_jetbrains.pdf",
+    "thumb": "certificates/certificate_fullstack_jetbrains_thumb.webp",
+    "url": ""
+  },
+  {
+    "id": "jetbrains-cloud-native",
+    "title": "Cloud-Native Python Apps",
+    "issuer": "JetBrains Academy · Amazon Web Services",
+    "date": "2026-03-29",
+    "category": "cloud",
+    "note": {
+      "es": "Skill Path «Build and Ship Cloud-Native Python Apps».",
+      "en": "Skill Path “Build and Ship Cloud-Native Python Apps”."
+    },
+    "file": "certificates/certificate_cloud_jetbrains.pdf",
+    "thumb": "certificates/certificate_cloud_jetbrains_thumb.webp",
+    "url": ""
+  },
+  {
+    "id": "efset-b2",
+    "title": "EF SET English Certificate (B2)",
+    "issuer": "EF SET",
+    "date": "2026-02-13",
+    "category": "language",
+    "note": {
+      "es": "Puntaje global 59/100 (B2 Upper Intermediate): Reading C1 Advanced (61) y Listening B2 Upper Intermediate (56).",
+      "en": "Overall score 59/100 (B2 Upper Intermediate): Reading C1 Advanced (61) and Listening B2 Upper Intermediate (56)."
+    },
+    "file": "certificates/ef_set_certificate.pdf",
+    "thumb": "certificates/ef_set_certificate_thumb.webp",
+    "url": "https://cert.efset.org/rZ9zZj"
+  },
+  {
+    "id": "nvidia-deep-learning",
+    "title": "Deep Learning",
+    "issuer": "NVIDIA Deep Learning Institute",
+    "date": "2025-11-05",
+    "category": "ai",
+    "note": {
+      "es": "Certificado de competencia «Fundamentals of Deep Learning» emitido por NVIDIA Deep Learning Institute.",
+      "en": "Certificate of Competency in “Fundamentals of Deep Learning” issued by NVIDIA Deep Learning Institute."
+    },
+    "file": "certificates/certificado_nvidia.pdf",
+    "thumb": "certificates/certificado_nvidia_1_thumb.webp",
+    "url": "https://learn.nvidia.com/certificates?id=bIIeEvhFRZ6c-MZwmhADtQ"
+  },
+  {
+    "id": "hackathon-isa-2024",
+    "title": "Primera Hackathon de Analítica de Negocios",
+    "issuer": "ISA Intercolombia · Universidad EIA",
+    "date": "2024-05-10",
+    "category": "recognition",
+    "file": "certificates/participacion_isa.jpeg",
+    "thumb": "certificates/participacion_isa_thumb.webp",
+    "url": ""
+  },
+  {
+    "id": "generacion-tic",
+    "title": "Analítica de Datos – Generación TIC",
+    "issuer": "Ministerio TIC · Universidad Distrital Francisco José de Caldas",
+    "date": "2023-12",
+    "hours": 50,
+    "category": "data",
+    "file": "certificates/certificado_analitica_datos_isaac_giraldo_filtro.pdf",
+    "thumb": "certificates/certificado_analitica_datos_isaac_giraldo_filtro_thumb.webp",
+    "url": ""
+  },
+  {
+    "id": "ubuntu-leaders",
+    "title": "Fellow – Ubuntu Leaders Academy",
+    "issuer": "Ubuntu Leaders Academy",
+    "date": "2023-08",
+    "category": "recognition",
+    "file": "",
+    "thumb": "",
+    "url": ""
+  }
+]

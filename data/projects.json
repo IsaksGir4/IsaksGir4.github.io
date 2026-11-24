@@ -1,0 +1,438 @@
+[
+  {
+    "id": "vitalrisk-ai",
+    "kind": "data",
+    "featured": true,
+    "status": { "es": "Datos al Ecosistema 2026 · 82/100", "en": "Datos al Ecosistema 2026 · 82/100" },
+    "title": { "es": "VitalRisk AI", "en": "VitalRisk AI" },
+    "context": { "es": "Alertas tempranas de infecciones respiratorias en Antioquia · MinTIC y Corporación Colombia Digital", "en": "Early warning for respiratory infections in Antioquia · MinTIC & Corporación Colombia Digital" },
+    "problem": {
+      "es": "Anticipar brotes semanales de infecciones respiratorias en 103 municipios de Antioquia integrando nueve fuentes públicas dispersas.",
+      "en": "Forecast weekly respiratory infection outbreaks across 103 municipalities in Antioquia from nine fragmented public data sources."
+    },
+    "role": {
+      "es": "Co-líder técnico y Scrum Master: ETL, 7 tablas PostgreSQL/PostGIS (~134.000 registros por ejecución), XGBoost + SHAP, FastAPI y tablero.",
+      "en": "Technical co-lead and Scrum Master: ETL, 7 PostgreSQL/PostGIS tables (~134,000 records per run), XGBoost + SHAP, FastAPI, and dashboard."
+    },
+    "result": {
+      "es": "82/100 del jurado externo entre 269 equipos · RMSE 1,74, MAE 1,0295, R² 0,607 y +16,2 % vs. baseline histórico (1 semana de antelación).",
+      "en": "82/100 from the external jury among 269 teams · RMSE 1.74, MAE 1.0295, R² 0.607, and +16.2% over historical baseline (1-week lead time)."
+    },
+    "summary": {
+      "es": "Sistema de vigilancia preventiva que integra nueve fuentes de datos abiertos (epidemiología, calidad del aire, clima y vulnerabilidad socioeconómica) en 7 tablas PostgreSQL/PostGIS (~134.000 registros por ejecución) y anticipa casos por municipio con una semana de antelación. Fui co-líder técnico y Scrum Master: del ETL y la base geoespacial al modelo XGBoost + SHAP, la API y el tablero.",
+      "en": "Preventive surveillance system integrating nine open data sources (epidemiology, air quality, weather, and socioeconomic vulnerability) into 7 PostgreSQL/PostGIS tables (~134,000 records per run) to forecast weekly municipal cases one week ahead. I served as technical co-lead and Scrum Master: from ETL and geospatial schema to XGBoost + SHAP, FastAPI, and the dashboard."
+    },
+    "metrics": {
+      "es": [
+        "82/100 del jurado externo entre 269 equipos nacionales",
+        "RMSE 1,74 · MAE 1,0295 casos (error promedio cercano a un caso; prueba temporal 2022–2023)",
+        "R² = 0,607 · +16,2 % de mejora frente al baseline histórico",
+        "103 municipios de Antioquia · anticipación de una semana"
+      ],
+      "en": [
+        "82/100 from the external jury among 269 national teams",
+        "RMSE 1.74 · MAE 1.0295 cases (average error close to one case; 2022–2023 temporal test)",
+        "R² = 0.607 · +16.2% improvement over the historical baseline",
+        "103 municipalities in Antioquia · one-week lead time"
+      ]
+    },
+    "learned": {
+      "es": "Lo que me sorprendió: en nuestros datos, el acceso al sistema de salud se relacionó más con los brotes respiratorios que la contaminación por PM2.5. Y del jurado aprendí que el rigor técnico no basta sin más señales externas y validación de impacto en campo.",
+      "en": "What surprised me: in our data, healthcare access correlated more strongly with respiratory outbreaks than PM2.5 pollution. From the jury I also learned that technical rigor is not enough without broader open variables and real-world impact validation."
+    },
+    "tags": ["Python", "XGBoost", "SHAP", "ASUM-ML", "PostgreSQL / PostGIS", "FastAPI", "Streamlit", "Docker"],
+    "repo": "https://github.com/IsaksGir4/VitalRiskIA",
+    "demo": "https://vitalriskia-frontend.onrender.com",
+    "demoLabel": {
+      "es": "Demo (puede tardar unos segundos en despertar)",
+      "en": "Live demo (may take a few seconds to wake up)"
+    },
+    "caseStudy": {
+      "juryTotal": 82,
+      "juryMax": 100,
+      "teamsCount": 269,
+      "subtitle": {
+        "es": "Caso de estudio técnico · Datos al Ecosistema 2026 (269 equipos nacionales)",
+        "en": "Technical case study · Datos al Ecosistema 2026 (269 national teams)"
+      },
+      "media": {
+        "poster": "images/vitalrisk-dashboard.webp",
+        "posterWidth": 908,
+        "posterHeight": 542,
+        "posterAlt": {
+          "es": "Tablero territorial de VitalRisk AI con 103 municipios monitoreados de Antioquia y mapa de riesgo",
+          "en": "VitalRisk AI territorial dashboard showing 103 monitored municipalities in Antioquia and risk map"
+        },
+        "video": "images/vitalrisk-demo.mp4",
+        "videoCaption": {
+          "es": "Recorrido por el tablero territorial, predicción XGBoost + SHAP y portal de datos abiertos de VitalRisk AI.",
+          "en": "Walkthrough of VitalRisk AI's territorial dashboard, live XGBoost + SHAP forecast, and open-data portal."
+        }
+      },
+      "scorecard": [
+        { "label": { "es": "Innovación y creatividad", "en": "Innovation & creativity" }, "score": 15, "max": 15 },
+        { "label": { "es": "Uso de datos abiertos", "en": "Use of open data" }, "score": 12, "max": 20 },
+        { "label": { "es": "Análisis y rigor técnico", "en": "Technical analysis & rigor" }, "score": 15, "max": 15 },
+        { "label": { "es": "Tecnologías emergentes – IA", "en": "Emerging technologies – AI" }, "score": 20, "max": 20 },
+        { "label": { "es": "Impacto y escalabilidad", "en": "Impact & scalability" }, "score": 12, "max": 20 },
+        { "label": { "es": "Diseño, comunicación y usabilidad", "en": "Design, communication & usability" }, "score": 8, "max": 10 }
+      ],
+      "modelKpis": [
+        {
+          "value": 1.74,
+          "decimals": 2,
+          "prefix": "",
+          "suffix": "",
+          "label": { "es": "RMSE (casos)", "en": "RMSE (cases)" },
+          "detail": { "es": "Prueba temporal 2022–2023 (datos 2018–2023)", "en": "2022–2023 temporal test (2018–2023 data)" }
+        },
+        {
+          "value": 1.0295,
+          "decimals": 4,
+          "prefix": "",
+          "suffix": "",
+          "label": { "es": "MAE (casos)", "en": "MAE (cases)" },
+          "detail": { "es": "Error promedio cercano a un caso por municipio y semana", "en": "Average error close to one case per municipality-week" }
+        },
+        {
+          "value": 0.607,
+          "decimals": 3,
+          "prefix": "",
+          "suffix": "",
+          "label": { "es": "R²", "en": "R²" },
+          "detail": { "es": "Varianza explicada por el modelo en validación temporal", "en": "Variance explained under temporal validation" }
+        },
+        {
+          "value": 16.2,
+          "decimals": 1,
+          "prefix": "+",
+          "suffix": "%",
+          "label": { "es": "Vs. baseline histórico", "en": "Vs. historical baseline" },
+          "detail": {
+            "es": "Mejora sobre la línea base con validación temporal (entrenamiento 2018–2021, prueba 2022–2023)",
+            "en": "Gain over baseline with temporal validation (2018–2021 train, 2022–2023 test)"
+          }
+        }
+      ],
+      "specs": {
+        "es": [
+          "Modelo: XGBoost + explicabilidad local y global con SHAP (TreeExplainer, 12 features)",
+          "Metodología: ASUM-ML con validación temporal (entrenamiento 2018–2021, prueba 2022–2023)",
+          "Datos: 9 fuentes públicas abiertas (SIVIGILA/INS, IDEAM, DANE, entre otras) consolidadas en 7 tablas PostgreSQL/PostGIS",
+          "Volumen y alcance: ~134.000 registros por ejecución, 103 municipios de Antioquia y horizonte de anticipación de 1 semana"
+        ],
+        "en": [
+          "Model: XGBoost + local and global explainability via SHAP (TreeExplainer, 12 features)",
+          "Methodology: ASUM-ML with temporal validation (2018–2021 train, 2022–2023 test)",
+          "Data: 9 public open sources (SIVIGILA/INS, IDEAM, DANE, among others) modeled across 7 PostgreSQL/PostGIS tables",
+          "Scale & scope: ~134,000 records per run, 103 municipalities in Antioquia, 1-week forecast horizon"
+        ]
+      },
+      "pipeline": [
+        { "short": { "es": "Datos abiertos", "en": "Open data" }, "sub": { "es": "9 fuentes", "en": "9 sources" } },
+        { "short": { "es": "ETL", "en": "ETL" }, "sub": { "es": "~134 mil reg.", "en": "~134k rows" } },
+        { "short": { "es": "PostgreSQL", "en": "PostgreSQL" }, "sub": { "es": "PostGIS · 7 tablas", "en": "PostGIS · 7 tables" } },
+        { "short": { "es": "XGBoost + SHAP", "en": "XGBoost + SHAP" }, "sub": { "es": "12 features", "en": "12 features" } },
+        { "short": { "es": "Motor alertas", "en": "Alert engine" }, "sub": { "es": "Pred. vs. media sem.", "en": "Pred. vs. weekly avg" } },
+        { "short": { "es": "Mapa y panel", "en": "Map & dashboard" }, "sub": { "es": "API + Streamlit", "en": "API + Streamlit" } }
+      ],
+      "reflection": {
+        "es": "Lectura honesta del resultado: logramos puntaje perfecto en rigor técnico (15/15), IA (20/20) e innovación (15/15), y los puntos que perdimos se concentraron en uso de datos abiertos (12/20, por cantidad de variables incorporadas) y en impacto y escalabilidad (12/20, al faltar validación real en campo). Ese feedback muestra exactamente qué separa un buen modelo técnico de una solución adoptada.",
+        "en": "An honest reading of the score: we earned full marks in technical rigor (15/15), AI (20/20), and innovation (15/15), while scoring lower on open-data breadth (12/20, number of variables) and impact/scalability (12/20, real-world field validation). That feedback pinpoints what separates a solid model from an adopted system."
+      }
+    }
+  },
+  {
+    "id": "reto-sura",
+    "kind": "data",
+    "featured": true,
+    "status": { "es": "Simulación · 3.er puesto", "en": "Simulation · 3rd place" },
+    "title": { "es": "Reto Nacional Seguros Sura: «El Libre Mercado»", "en": "Seguros Sura National Challenge: “El Libre Mercado”" },
+    "context": { "es": "Pasantía académica en gestión y modelación de riesgos · agosto de 2026", "en": "Academic internship in risk management and modeling · August 2026" },
+    "problem": {
+      "es": "Administrar una aseguradora simulada (COP 120.000M de capital, 1M de asegurables) cuya participación cayó del 10 % al 1 %.",
+      "en": "Run a simulated auto insurer (COP 120B capital, 1M insurable customers) after market share plunged from 10% to 1%."
+    },
+    "role": {
+      "es": "Líder analítico y financiero en Python: flujo de datos, tarifación, reservas, estados financieros conciliados y modelo correctivo de tarifas.",
+      "en": "Analytical and financial lead in Python: data pipeline, pricing, reserves, reconciled financial statements, and tariff-recovery model."
+    },
+    "result": {
+      "es": "3.er puesto entre 12 equipos a nivel nacional, premio individual a la Orientación al Logro y EVA simulado de COP 62.000 millones.",
+      "en": "3rd place among 12 teams nationwide, individual Achievement Orientation award, and COP 62B simulated year-end EVA."
+    },
+    "summary": {
+      "es": "Cada equipo fundó y administró una aseguradora de autos simulada con COP 120.000 millones de capital, compitiendo por un millón de asegurables. En Python armé el flujo de datos, la tarifación, las reservas y los estados financieros conciliados; cuando la participación de mercado se desplomó del 10 % al 1 %, diagnostiqué el error de tarifas y construí el modelo que revirtió la caída.",
+      "en": "Each team founded and ran a simulated auto insurer with COP 120 billion in capital, competing for one million insurable customers. In Python I built the data flow, pricing, reserves, and reconciled financial statements; when market share plunged from 10% to 1%, I diagnosed the pricing error and built the model that reversed the drop."
+    },
+    "metrics": {
+      "es": ["Tercer puesto entre 12 equipos a nivel nacional", "Reconocimiento individual a la Orientación al Logro", "EVA simulado de COP 62.000 millones al cierre del año"],
+      "en": ["Third place among 12 teams nationwide", "Individual Achievement Orientation award", "Simulated EVA of COP 62 billion at year end"]
+    },
+    "tags": ["Python", "Pandas", "ETL", "Tarifación", "Reservas", "Modelamiento financiero"],
+    "repo": "",
+    "demo": ""
+  },
+  {
+    "id": "riesgo-crediticio",
+    "kind": "data",
+    "featured": true,
+    "status": { "es": "Proyecto académico", "en": "Academic project" },
+    "title": { "es": "Riesgo de crédito: de la probabilidad a la decisión", "en": "Credit risk: from probability to decision" },
+    "context": { "es": "Home Credit Default Risk · Universidad EIA · mayo de 2026", "en": "Home Credit Default Risk · Universidad EIA · May 2026" },
+    "problem": {
+      "es": "Estimar el incumplimiento de pago desde cinco tablas relacionales dispersas para decidir aprobaciones de crédito con criterio financiero.",
+      "en": "Estimate default risk across five relational tables to guide loan approvals using financial expected value."
+    },
+    "role": {
+      "es": "Desarrollador independiente: unificación SQL + Python de 5 tablas, comparación de 3 familias de clasificadores y regla por valor esperado.",
+      "en": "Sole developer: SQL + Python consolidation of 5 tables, comparison of 3 classifier families, and expected-value approval rule."
+    },
+    "result": {
+      "es": "Base analítica reproducible de 5 tablas, 3 familias comparadas y decisión de otorgamiento por valor esperado, no solo por exactitud.",
+      "en": "Reproducible 5-table analytical base, 3 model families benchmarked, and credit approvals driven by expected value rather than raw accuracy."
+    },
+    "summary": {
+      "es": "Unifiqué cinco tablas relacionales en una base analítica reproducible con SQL y Python, comparé tres familias de clasificadores y traduje las probabilidades de incumplimiento en un criterio de valor esperado para decidir si se aprueba un crédito.",
+      "en": "I unified five relational tables into a reproducible analytical base with SQL and Python, compared three families of classifiers, and turned default probabilities into an expected-value rule to decide whether to approve a loan."
+    },
+    "metrics": {
+      "es": ["5 tablas fuente consolidadas", "3 familias de modelos comparadas", "Decisión por valor esperado, no solo por exactitud"],
+      "en": ["5 source tables consolidated", "3 model families compared", "Decision by expected value, not just accuracy"]
+    },
+    "tags": ["SQL", "Python", "scikit-learn", "Gradient boosting", "Feature engineering"],
+    "repo": "",
+    "demo": ""
+  },
+  {
+    "id": "alight-sparkx",
+    "kind": "innovation",
+    "draft": false,
+    "status": { "es": "En construcción · 1.er lugar en Pitch Day", "en": "In progress · 1st place at Pitch Day" },
+    "title": { "es": "Alight", "en": "Alight" },
+    "context": {
+      "es": "SaaS B2B de conciliación bancaria · Spark-X (Georgia Tech Medellín Center y Universidad CES)",
+      "en": "B2B bank reconciliation SaaS · Spark-X (Georgia Tech Medellín Center & Universidad CES)"
+    },
+    "problem": {
+      "es": "Conciliación bancaria manual y propensa a errores para equipos financieros B2B.",
+      "en": "Manual, error-prone bank reconciliation workflows for B2B finance teams."
+    },
+    "role": {
+      "es": "Conceptualización de producto, descubrimiento de clientes y definición de requerimientos en Spark-X; desarrollo actual del MVP y demo.",
+      "en": "Product conceptualization, customer discovery, and initial requirements at Spark-X; currently building the MVP and demo."
+    },
+    "result": {
+      "es": "1.er lugar en Pitch Day de Spark-X; MVP y demo actualmente en construcción.",
+      "en": "1st place at Spark-X Pitch Day; MVP and demo currently under development."
+    },
+    "summary": {
+      "es": "SaaS B2B de conciliación bancaria nacido en Spark-X (Georgia Tech Medellín Center y Universidad CES). Participé en la conceptualización del producto, el descubrimiento de clientes y la definición inicial de requerimientos; tras obtener el primer lugar en el Pitch Day, seguimos desarrollando el MVP y el demo con rigor arquitectónico de software. Comparto el avance y el aprendizaje, sin exponer hallazgos confidenciales.",
+      "en": "B2B bank reconciliation SaaS born in Spark-X (Georgia Tech Medellín Center & Universidad CES). I took part in product conceptualization, customer discovery, and initial requirements; after winning first place at Pitch Day, we are actively building the MVP and demo with solid software architecture rigor. I share the progress and recognition without disclosing confidential discovery details."
+    },
+    "metrics": {
+      "es": ["1.er lugar en Pitch Day", "MVP y demo actualmente en desarrollo"],
+      "en": ["1st place at Pitch Day", "MVP and demo currently in development"]
+    },
+    "tags": ["SaaS B2B", "Conciliación bancaria", "Customer discovery", "Arquitectura de software"],
+    "repo": "",
+    "demo": ""
+  },
+  {
+    "id": "dashboard-europa",
+    "kind": "data",
+    "status": { "es": "Visualización de datos", "en": "Data visualization" },
+    "title": { "es": "Criminalidad e inmigración en Europa", "en": "Crime and immigration in Europe" },
+    "context": { "es": "Tablero de Power BI de 5 páginas · proyecto académico en D3.js", "en": "5-page Power BI dashboard · academic D3.js project" },
+    "problem": {
+      "es": "Contrastar con evidencia estadística oficial un debate público frecuentemente abordado desde prejuicios.",
+      "en": "Contrast public perception with official statistics on a topic frequently debated with bias."
+    },
+    "role": {
+      "es": "Integré fuentes oficiales (Eurostat, Frontex, INE, estadísticas de Alemania y ESS) y diseñé el tablero aplicando reglas de Munzner y Gestalt.",
+      "en": "Crossed official datasets (Eurostat, Frontex, INE, German statistics, ESS) and designed the dashboard under Munzner and Gestalt rules."
+    },
+    "result": {
+      "es": "Tablero de 5 páginas de lo macro a las conclusiones, con Alemania y España como núcleo y limitaciones visibles.",
+      "en": "5-page dashboard from macro context to conclusions, anchored on Germany and Spain with data caveats in plain sight."
+    },
+    "summary": {
+      "es": "Una forma de mirar con cuidado un tema que suele discutirse con prejuicios. Cruza fuentes oficiales (Eurostat, Frontex, INE, estadísticas de Alemania y la Encuesta Social Europea) y contrasta la percepción social con los datos. Lo diseñé con reglas de visualización (Munzner y Gestalt): ejes desde cero, sin doble eje ni gráficos circulares, y las limitaciones de los datos a la vista.",
+      "en": "A careful look at a topic that is often debated with bias. It crosses official sources (Eurostat, Frontex, INE, German statistics, and the European Social Survey) and contrasts public perception with the data. I designed it with visualization rules (Munzner and Gestalt): axes from zero, no dual axes or pie charts, and data limitations in plain sight."
+    },
+    "metrics": {
+      "es": ["5 páginas, de lo macro a las conclusiones", "Alemania y España como núcleo, por disponibilidad de datos verificada"],
+      "en": ["5 pages, from the big picture to conclusions", "Germany and Spain as the core, based on verified data availability"]
+    },
+    "tags": ["Power BI", "D3.js", "Diseño de visualización", "Eurostat", "Frontex"],
+    "repo": "",
+    "demo": ""
+  },
+  {
+    "id": "agente-auditor",
+    "kind": "ai",
+    "status": { "es": "Proyecto académico", "en": "Academic project" },
+    "title": { "es": "Agente auditor de gastos con IA", "en": "AI expense-auditor agent" },
+    "context": { "es": "Agentes inteligentes en aplicaciones empresariales · trabajo en equipo", "en": "Intelligent agents in enterprise applications · team project" },
+    "problem": {
+      "es": "Revisar gastos empresariales consultando políticas internas y registros estructurados de forma automatizada.",
+      "en": "Audit business expenses by combining policy documents with structured expense records."
+    },
+    "role": {
+      "es": "Construcción en equipo de un agente en LangGraph con RAG (Chroma local) y herramienta simulada tipo MCP sobre SQLite.",
+      "en": "Team implementation of a LangGraph agent using local Chroma RAG and a simulated MCP-style SQLite tool."
+    },
+    "result": {
+      "es": "Demo funcional (agente + RAG + herramienta simulada) con errores y limitaciones reales documentados con honestidad.",
+      "en": "Working demo (agent + RAG + simulated tool) with real failure modes and limitations transparently documented."
+    },
+    "summary": {
+      "es": "Demo funcional de un agente (LangGraph) que revisa gastos apoyándose en recuperación de documentos (RAG con Chroma local) y una herramienta simulada tipo MCP sobre SQLite. Documentamos los errores reales que encontramos y los presentamos como limitaciones, no los escondimos.",
+      "en": "A working demo of an agent (LangGraph) that audits expenses using document retrieval (RAG with a local Chroma store) and a simulated MCP-style tool over SQLite. We documented the real bugs we found and presented them as limitations instead of hiding them."
+    },
+    "metrics": {
+      "es": ["Agente + RAG + herramienta simulada", "Limitaciones documentadas con honestidad"],
+      "en": ["Agent + RAG + simulated tool", "Limitations documented honestly"]
+    },
+    "tags": ["LangGraph", "RAG", "Chroma", "SQLite", "Python"],
+    "repo": "",
+    "demo": ""
+  },
+  {
+    "id": "invention-studio",
+    "kind": "innovation",
+    "status": { "es": "Miembro fundador", "en": "Founding member" },
+    "title": { "es": "Invention Studio", "en": "Invention Studio" },
+    "context": { "es": "Makerspace de la Universidad EIA · mayo de 2024", "en": "Universidad EIA makerspace · May 2024" },
+    "problem": {
+      "es": "Altos costos de prueba y prototipado para empresas que no justifican comprar herramientas especializadas de uso ocasional.",
+      "en": "High testing and prototyping costs for companies that cannot justify buying specialized tools for occasional use."
+    },
+    "role": {
+      "es": "Miembro fundador junto a compañeros y la Dirección de Innovación en la puesta en marcha del makerspace universitario.",
+      "en": "Founding member alongside classmates and the Innovation Director launching the university makerspace."
+    },
+    "result": {
+      "es": "Makerspace universitario activo con más de 15 estudiantes enfocados en experimentación y prototipado.",
+      "en": "Active university makerspace with 15+ students supporting experimentation and prototyping."
+    },
+    "gallery": [
+      {
+        "src": "images/invention-studio-team.webp",
+        "width": 999,
+        "height": 562,
+        "alt": {
+          "es": "Equipo fundador frente al letrero de Universidad EIA Invention Studio",
+          "en": "Founding team standing in front of the Universidad EIA Invention Studio sign"
+        },
+        "caption": {
+          "es": "Invention Studio · Universidad EIA (mayo de 2024)",
+          "en": "Invention Studio · Universidad EIA (May 2024)"
+        }
+      },
+      {
+        "src": "images/invention-studio-campus.webp",
+        "width": 1000,
+        "height": 565,
+        "alt": {
+          "es": "Miembros fundadores y directivos en el espacio exterior de Invention Studio en la Universidad EIA",
+          "en": "Founding members and faculty outside the Invention Studio space at Universidad EIA"
+        },
+        "caption": {
+          "es": "Makerspace universitario con más de 15 estudiantes · Universidad EIA",
+          "en": "University makerspace with 15+ students · Universidad EIA"
+        }
+      }
+    ],
+    "summary": {
+      "es": "Con un grupo de compañeros y el apoyo de la Dirección de Innovación, desarrollamos un makerspace para hacer experimentos. Así, las empresas reducen costos de prueba y prototipado sin invertir en herramientas especializadas que no van a usar a diario.",
+      "en": "With a group of classmates and the support of the Innovation Director, we developed a makerspace for running experiments. Companies can cut testing and prototyping costs without investing in specialized tools they would not use every day."
+    },
+    "metrics": {
+      "es": ["Iniciativa de prototipado con más de 15 estudiantes"],
+      "en": ["Prototyping initiative with more than 15 students"]
+    },
+    "tags": ["Innovación", "Prototipado", "Trabajo en equipo"],
+    "repo": "",
+    "demo": ""
+  },
+  {
+    "id": "hackathon-isa",
+    "kind": "innovation",
+    "status": { "es": "Competencia", "en": "Competition" },
+    "title": { "es": "Primer hackathon de ISA Intercolombia", "en": "ISA Intercolombia's first hackathon" },
+    "context": { "es": "Analítica de negocios en tiempo real · Universidad EIA · mayo de 2024", "en": "Real-time business analytics · Universidad EIA · May 2024" },
+    "problem": {
+      "es": "Analizar problemas reales de negocio en tiempo real y tomar decisiones a contrarreloj.",
+      "en": "Analyze real business problems in real time and make decisions against the clock."
+    },
+    "role": {
+      "es": "Participante en equipo aplicando analítica de datos y análisis estratégico bajo presión.",
+      "en": "Team participant applying data analytics and strategic analysis under time pressure."
+    },
+    "result": {
+      "es": "No clasificamos; aprendizaje práctico en trabajo en equipo, presión competitiva y analítica aplicada.",
+      "en": "Did not qualify; hands-on learning in teamwork, competitive pressure, and applied analytics."
+    },
+    "summary": {
+      "es": "Trabajamos en equipo sobre problemas reales, a contrarreloj. No clasificamos, pero salí con algo que me sirvió más que el resultado: practiqué analítica de datos, análisis estratégico e intuición bajo presión, y entendí cómo funciona un equipo en un entorno competitivo.",
+      "en": "We worked as a team on real problems against the clock. We did not qualify, but I came away with something more useful than the result: I practiced data analytics, strategic analysis, and intuition under pressure, and learned how a team works in a competitive setting."
+    },
+    "metrics": {
+      "es": ["Aprendizaje: equipo, presión y analítica aplicada"],
+      "en": ["Takeaway: teamwork, pressure, and applied analytics"]
+    },
+    "tags": ["Hackathon", "Analítica", "Trabajo en equipo"],
+    "repo": "",
+    "demo": ""
+  },
+  {
+    "id": "stem-educacion",
+    "kind": "innovation",
+    "status": { "es": "Investigación", "en": "Research" },
+    "title": { "es": "STEM en instituciones educativas", "en": "STEM in educational institutions" },
+    "context": { "es": "Curso Proyecto de Ingeniería III", "en": "Engineering Project III course" },
+    "problem": {
+      "es": "Comprender cómo se implementa la educación STEM en colegios que ya la aplican para identificar oportunidades de mejora.",
+      "en": "Understand how STEM education is implemented in adopting schools to identify opportunities for improvement."
+    },
+    "role": {
+      "es": "Investigación en equipo levantando y analizando las opiniones de varios colegios.",
+      "en": "Team researcher gathering and analyzing perspectives from several schools."
+    },
+    "result": {
+      "es": "Propuestas concretas para optimizar y ampliar la educación STEM en la ciudad y el país.",
+      "en": "Concrete proposals to optimize and expand STEM education at city and national levels."
+    },
+    "summary": {
+      "es": "Investigamos cómo se implementa la educación STEM en colegios que ya la aplican, a partir de sus propias opiniones, para identificar estrategias que mejoren el nivel educativo de la ciudad y, eventualmente, del país. Terminé con propuestas para optimizarla y ampliarla.",
+      "en": "We researched how STEM education is implemented in schools that already use it, based on their own opinions, to identify strategies that could raise educational levels in the city and, eventually, the country. I finished with proposals to optimize and expand it."
+    },
+    "metrics": {
+      "es": ["Análisis basado en la opinión de varios colegios"],
+      "en": ["Analysis based on the views of several schools"]
+    },
+    "tags": ["Investigación", "Educación", "STEM"],
+    "repo": "",
+    "demo": ""
+  },
+  {
+    "id": "tutordatos",
+    "kind": "ai",
+    "draft": true,
+    "status": { "es": "En construcción", "en": "In progress" },
+    "title": { "es": "TutorDatos", "en": "TutorDatos" },
+    "context": { "es": "Proyecto personal", "en": "Personal project" },
+    "summary": {
+      "es": "Un asistente para consultar mis propios documentos con recuperación semántica. Me sirve para entender de verdad cada pieza: ingestión de archivos, chunking, embeddings, búsqueda vectorial, API y control de acceso.",
+      "en": "An assistant for querying my own documents with semantic retrieval. It lets me understand each piece properly: file ingestion, chunking, embeddings, vector search, API, and access control."
+    },
+    "metrics": {
+      "es": ["En desarrollo local"],
+      "en": ["Under local development"]
+    },
+    "tags": ["Python", "FastAPI", "PostgreSQL", "pgvector", "Ollama"],
+    "repo": "",
+    "demo": ""
+  }
+]

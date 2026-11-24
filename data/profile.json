@@ -1,0 +1,277 @@
+{
+  "principles": [
+    {
+      "title": { "es": "Entender antes de construir", "en": "Understand before building" },
+      "text": { "es": "Observar el proceso, escuchar a quienes lo usan y convertir una necesidad ambigua en un problema concreto.", "en": "Watch the process, listen to the people who use it, and turn a vague need into a concrete problem." }
+    },
+    {
+      "title": { "es": "Pensar con evidencia", "en": "Think with evidence" },
+      "text": { "es": "Usar estadística, datos y contexto para distinguir una señal útil de una conclusión apresurada.", "en": "Use statistics, data, and context to tell a useful signal from a hasty conclusion." }
+    },
+    {
+      "title": { "es": "Conectar técnica y negocio", "en": "Connect technique and business" },
+      "text": { "es": "Considerar la utilidad, los riesgos, las personas y la operación, además de que el código funcione.", "en": "Weigh usefulness, risks, people, and operations—not just whether the code runs." }
+    }
+  ],
+  "workStyle": {
+    "source": {
+      "es": "Fuente: Criteria Corp · Workplace Insights (21 ago 2026). Lectura cualitativa de estilo laboral, sin puntajes numéricos.",
+      "en": "Source: Criteria Corp · Workplace Insights (Aug 21, 2026). Qualitative work-style summary, no numeric scores."
+    },
+    "spectra": [
+      {
+        "id": "accommodating",
+        "trait": { "es": "Acomodaticio", "en": "Accommodating" },
+        "left": { "es": "Acomodaticio", "en": "Accommodating" },
+        "right": { "es": "Directivo", "en": "Directive" },
+        "zone": 1,
+        "summary": {
+          "es": "Cooperativo, escucha primero y suele ser deferente con el grupo.",
+          "en": "Cooperative, listens first, and tends to be deferential in group settings."
+        }
+      },
+      {
+        "id": "introverted",
+        "trait": { "es": "Introvertido", "en": "Introverted" },
+        "left": { "es": "Introvertido", "en": "Introverted" },
+        "right": { "es": "Extrovertido", "en": "Extroverted" },
+        "zone": 1,
+        "summary": {
+          "es": "Reservado y sereno; rinde bien en roles que no exigen interacción social constante.",
+          "en": "Reserved and low-key; thrives in roles that don't require constant social interaction."
+        }
+      },
+      {
+        "id": "openness",
+        "trait": { "es": "Apertura moderada", "en": "Moderate openness" },
+        "left": { "es": "Enfoques probados", "en": "Proven approaches" },
+        "right": { "es": "Exploración abierta", "en": "Open exploration" },
+        "zone": 2,
+        "summary": {
+          "es": "Abierto a explorar y contrastar alternativas, con preferencia por enfoques probados.",
+          "en": "Open to variety and exploration, while preferring proven approaches."
+        }
+      },
+      {
+        "id": "patience",
+        "trait": { "es": "Paciencia moderada", "en": "Moderate patience" },
+        "left": { "es": "Impulso rápido", "en": "Fast urgency" },
+        "right": { "es": "Calma sostenida", "en": "Steady calm" },
+        "zone": 3,
+        "summary": {
+          "es": "Buen equilibrio para sostener el foco y manejar la frustración sin perder el ritmo.",
+          "en": "Effective balance of momentum and calm when navigating frustrations on tasks."
+        }
+      }
+    ],
+    "cards": [
+      {
+        "id": "interactions",
+        "frontTitle": { "es": "Facilito interacciones positivas", "en": "Facilitating positive interactions" },
+        "frontText": {
+          "es": "Mi trato cooperativo ayuda a bajar la fricción y a mantener conversaciones constructivas incluso cuando hay desacuerdos.",
+          "en": "My accommodating style lowers friction and keeps team discussions constructive even when disagreements arise."
+        },
+        "backTitle": { "es": "Ser más directo cuando hace falta", "en": "Being more direct when needed" },
+        "backText": {
+          "es": "Practico expresar desacuerdos con franqueza y claridad cuando la situación lo pide, sin perder el respeto.",
+          "en": "Practicing candor and directness when a situation calls for it, without losing respect."
+        }
+      },
+      {
+        "id": "coachable",
+        "frontTitle": { "es": "Muy receptivo al feedback (coachable)", "en": "Highly coachable" },
+        "frontText": {
+          "es": "Escucho la retroalimentación sin defensas y la traduzco rápido en mejoras concretas de análisis, código o comunicación.",
+          "en": "I take feedback openly and turn it quickly into concrete improvements in analysis, code, or communication."
+        },
+        "backTitle": { "es": "Aportar mi opinión sin esperar a que me la pidan", "en": "Sharing my view without waiting to be asked" },
+        "backText": {
+          "es": "Trabajo en intervenir con iniciativa en discusiones de grupo cuando tengo una idea sólida que aporta valor.",
+          "en": "Working on stepping in proactively during group discussions whenever I hold a grounded view that helps."
+        }
+      },
+      {
+        "id": "service",
+        "frontTitle": { "es": "Perfil orientado al servicio", "en": "Service-oriented mindset" },
+        "frontText": {
+          "es": "Me importa que el resultado le sirva de verdad a quien toma decisiones o opera el proceso, más allá de lucir bien.",
+          "en": "I care that the solution genuinely helps the person operating the process or making the call, not just the slide deck."
+        },
+        "backTitle": { "es": "Poner a veces mis propios intereses", "en": "Putting my own priorities first when needed" },
+        "backText": {
+          "es": "Aprender a equilibrar las necesidades del equipo con las propias para sostener criterios firmes cuando corresponde.",
+          "en": "Learning to balance others' needs with my own priorities so I can sustain pace and make tougher calls when needed."
+        }
+      },
+      {
+        "id": "focus",
+        "frontTitle": { "es": "Foco profundo sin sobrecarga social", "en": "Deep focus without constant social drain" },
+        "frontText": {
+          "es": "Encajo muy bien en trabajo analítico, técnico y estructurado que exige concentración sostenida sin depender de ruido social.",
+          "en": "I fit naturally in analytical, technical, structured work that rewards sustained concentration over constant social stimulation."
+        },
+        "backTitle": { "es": "Preparar conversaciones clave", "en": "Preparing key interactions ahead" },
+        "backText": {
+          "es": "Cuando un proyecto exige abrir conversaciones con personas nuevas o liderar una sesión, lo preparo con antelación para llegar con claridad.",
+          "en": "When a project requires initiating new conversations or taking the floor, I plan ahead so I show up with clarity."
+        }
+      }
+    ]
+  },
+  "journey": [
+    {
+      "id": "research",
+      "period": { "es": "2024 – 2025", "en": "2024 – 2025" },
+      "kicker": { "es": "Investigación · Universidad EIA", "en": "Research · Universidad EIA" },
+      "title": { "es": "Semilleros de datos y aprendizaje automático", "en": "Data & machine learning research groups" },
+      "text": {
+        "es": "Miembro activo en grupos y semilleros de Ingeniería de Datos y Cómputo, Análisis de Datos y Automatización de Procesos de Machine Learning (modelos supervisados en 2024 y aprendizaje profundo en 2025). Allí aprendí a formular preguntas, trabajar con datos imperfectos y evaluar modelos con criterio.",
+        "en": "Active member of research groups in Data Engineering & Computing, Data Analysis, and Machine Learning Process Automation (supervised models in 2024 and deep learning in 2025). There I learned to frame questions, work with imperfect data, and evaluate models rigorously."
+      }
+    },
+    {
+      "id": "operations",
+      "period": { "es": "BECO S.A. (dic. 2024 – jul. 2025) · Negocios familiares", "en": "BECO S.A. (Dec 2024 – Jul 2025) · Family businesses" },
+      "kicker": { "es": "Operación y servicio · Experiencia real", "en": "Operations & service · Hands-on work" },
+      "title": { "es": "Servicio al cliente y operación diaria", "en": "Customer service & daily store operations" },
+      "text": {
+        "es": "Trabajé en operación real y atención al cliente en BECO S.A. y en negocios familiares; conocer el mostrador me ayuda a diseñar herramientas útiles para quienes sostienen la operación.",
+        "en": "I worked in frontline customer service and daily operations at BECO S.A. and in family businesses; knowing real store workflows helps me build practical tools for the people running them."
+      },
+      "chips": {
+        "es": [
+          "Revisión e instalación de equipos",
+          "Caja y ventas",
+          "Frontal",
+          "Aseo",
+          "Manipulación de alimentos",
+          "Surtido y empaque"
+        ],
+        "en": [
+          "Equipment inspection & setup",
+          "Cashier & sales",
+          "Front-of-house",
+          "Cleaning",
+          "Food handling",
+          "Stocking & bagging"
+        ]
+      }
+    },
+    {
+      "id": "sports",
+      "period": { "es": "Esgrima 2014–2019 · Karate 2025–actualidad", "en": "Fencing 2014–2019 · Karate 2025–present" },
+      "kicker": { "es": "Deporte · Disciplina", "en": "Sports · Discipline" },
+      "title": { "es": "Esgrima (Selección Antioquia) y karate (ASCUN)", "en": "Fencing (Selección Antioquia) & karate (ASCUN)" },
+      "text": {
+        "es": "De 2014 a 2019 (cinco años) entrené esgrima y fui representante de la Selección Antioquia en Sable Masculino. Desde 2025 soy representante universitario de la Universidad EIA en karate y obtuve medalla de bronce en los juegos universitarios ASCUN. El deporte me enseñó constancia, preparación y temple para decidir bajo presión.",
+        "en": "From 2014 to 2019 (five years) I fenced and represented Selección Antioquia in Men's Sabre. Since 2025 I have represented Universidad EIA in karate and earned a bronze medal at the ASCUN university games. Sport taught me consistency, preparation, and composure under pressure."
+      }
+    },
+    {
+      "id": "innovation",
+      "period": { "es": "2024 – 2026", "en": "2024 – 2026" },
+      "kicker": { "es": "Innovación · Liderazgo", "en": "Innovation · Leadership" },
+      "title": { "es": "Invention Studio, comunidades y retos", "en": "Invention Studio, communities & challenges" },
+      "text": {
+        "es": "Miembro fundador de Invention Studio (makerspace universitario con más de 15 estudiantes) y Embajador Estudiantil de Microsoft (2026). También participé en Spark-X (Georgia Tech Medellín Center y Universidad CES), Datos al Ecosistema (MinTIC) y la primera Hackathon de Analítica de Negocios de ISA Intercolombia.",
+        "en": "Founding member of Invention Studio (university makerspace with 15+ students) and Microsoft Student Ambassador (2026). I also took part in Spark-X (Georgia Tech Medellín Center & Universidad CES), Datos al Ecosistema (MinTIC), and ISA Intercolombia's first Business Analytics Hackathon."
+      }
+    }
+  ],
+  "hobbies": [
+    {
+      "id": "transformers",
+      "icon": "figures",
+      "image": "images/hobby-transformers.webp",
+      "width": 1200,
+      "height": 670,
+      "alt": {
+        "es": "Figura de Blitzwing esculpida a mano en plastilina morada en modo robot y modo avión",
+        "en": "Hand-sculpted purple plasticine Blitzwing figure shown in both robot and jet modes"
+      },
+      "gallery": [
+        {
+          "src": "images/hobby-transformers.webp",
+          "width": 1200,
+          "height": 670,
+          "alt": {
+            "es": "Figura de Blitzwing esculpida a mano en plastilina morada en modo robot y modo avión",
+            "en": "Hand-sculpted purple plasticine Blitzwing figure shown in robot and jet modes"
+          },
+          "caption": { "es": "Blitzwing en plastilina · robot y avión", "en": "Plasticine Blitzwing · robot & jet" }
+        },
+        {
+          "src": "images/hobby-transformers-robot.webp",
+          "width": 869,
+          "height": 1080,
+          "alt": {
+            "es": "Detalle en modo robot de la figura de Blitzwing moldeada en plastilina morada",
+            "en": "Close-up of the purple plasticine Blitzwing figure in robot mode"
+          },
+          "caption": { "es": "Modo robot · esculpido a mano", "en": "Robot mode · hand-sculpted" }
+        },
+        {
+          "src": "images/hobby-transformers-jet.webp",
+          "width": 810,
+          "height": 1080,
+          "alt": {
+            "es": "Detalle en modo avión de la figura de Blitzwing transformable en plastilina",
+            "en": "Close-up of the purple plasticine Blitzwing figure transformed into jet mode"
+          },
+          "caption": { "es": "Modo avión · diseño transformable", "en": "Jet mode · transformable design" }
+        }
+      ],
+      "title": { "es": "Transformers y plastilina", "en": "Transformers and plasticine" },
+      "text": { "es": "Desde que descubrí Transformers, la franquicia se volvió una fuente de creatividad. No me quedé en su universo: inventé mis propias historias y modelé figuras en plastilina, detalladas y funcionales. Cada diseño tiene mi estilo: precisión y originalidad.", "en": "Since I discovered Transformers, the franchise became a source of creativity. I did not stop at its universe: I invented my own stories and sculpted detailed, functional plasticine figures. Every design carries my style: precision and originality." }
+    },
+    {
+      "id": "gaming",
+      "icon": "gamepad",
+      "image": "images/hobby-gaming.webp",
+      "width": 1025,
+      "height": 657,
+      "alt": {
+        "es": "Logros desbloqueados en Metro Exodus Enhanced Edition: 48 de 68 logros completados",
+        "en": "Unlocked achievements in Metro Exodus Enhanced Edition: 48 of 68 achievements completed"
+      },
+      "title": { "es": "Videojuegos", "en": "Video games" },
+      "text": { "es": "Para mí han sido más que un pasatiempo: una puerta a la creatividad y a la exploración. Me han dejado vivir situaciones más allá de la realidad, estirar la imaginación y resolver problemas de maneras poco convencionales.", "en": "For me they have been more than a pastime: a gateway to creativity and exploration. They let me live situations beyond reality, stretch my imagination, and solve problems in unconventional ways." }
+    },
+    {
+      "id": "investing",
+      "icon": "chart",
+      "image": "images/hobby-investing.webp",
+      "width": 1200,
+      "height": 872,
+      "alt": {
+        "es": "Libros de formación en inversión: El Inversor Inteligente de Benjamin Graham e Invertir tus ahorros y multiplicar tu dinero para Dummies",
+        "en": "Investing books: The Intelligent Investor by Benjamin Graham and Investing for Dummies"
+      },
+      "title": { "es": "Inversiones", "en": "Investing" },
+      "text": { "es": "Hace poco empecé a explorar las inversiones de forma autodidacta y con estrategia. Estudio, aprendo de manera continua y pongo a prueba lo aprendido para construir un enfoque de retornos sostenibles.", "en": "Recently I started exploring investing in a self-taught, strategic way. I study, keep learning, and test what I learn in order to build an approach to sustainable returns." }
+    }
+  ],
+  "skills": [
+    {
+      "group": { "es": "Programación y bases de datos", "en": "Programming and databases" },
+      "items": ["Python", "Pandas", "NumPy", "SQL", "PostgreSQL", "PostGIS", "BigQuery", "MongoDB", "MySQL", "Java"]
+    },
+    {
+      "group": { "es": "Estadística, ML y riesgos", "en": "Statistics, ML and risk" },
+      "items": ["scikit-learn", "XGBoost", "SHAP", { "es": "Series de tiempo", "en": "Time series" }, { "es": "Validación temporal", "en": "Temporal validation" }, { "es": "Modelamiento financiero", "en": "Financial modeling" }, { "es": "TensorFlow (básico)", "en": "TensorFlow (basic)" }]
+    },
+    {
+      "group": { "es": "BI, analítica y visualización", "en": "BI, analytics and visualization" },
+      "items": ["Power BI", "Microsoft Fabric", "Tableau", "Streamlit", "D3.js", "Excel", "Matplotlib", "Seaborn"]
+    },
+    {
+      "group": { "es": "Ingeniería y nube", "en": "Engineering and cloud" },
+      "items": ["FastAPI", "ETL", "Docker", "Git / GitHub", "AWS"]
+    },
+    {
+      "group": { "es": "IA aplicada", "en": "Applied AI" },
+      "items": ["LangGraph", "RAG", "Embeddings", "Chroma"]
+    }
+  ]
+}

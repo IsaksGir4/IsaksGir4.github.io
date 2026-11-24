@@ -1,0 +1,53 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python (tools/*.py)
+__pycache__/
+*.pyc
+.venv/
+
+# Pruebas y reportes (viven fuera del repo público)
+tests/
+node_modules/
+test-results/
+playwright-report/
+lighthouse-report*/
+.lighthouseci/
+*-report.json
+
+# Respaldos, empaquetados y originales pesados
+*_backup*/
+originals*/
+originales/
+*.zip
+*.bak
+*.tmp
+*.orig
+
+# Video: solo se publica el demo optimizado
+*.mp4
+*.mov
+*.mkv
+*.avi
+!images/vitalrisk-demo.mp4
+
+# Originales sin tratar
+*_sin_filtro*
+*_original*
+*.psd
+*.heic
+
+# Secretos
+.env
+.env.*
+*.pem
+*.key
